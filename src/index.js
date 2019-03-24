@@ -5,9 +5,9 @@ import App from './App'
 import * as serviceWorker from './serviceWorker'
 import './assets/css/font-awesome.min.css'
 import './assets/css/noscript.css'
-import { BrowserRouter } from 'react-router-dom'
+import { HashRouter } from 'react-router-dom'
 
-ReactDOM.render(<BrowserRouter><App /></BrowserRouter>, document.getElementById('root'))
+ReactDOM.render(<HashRouter><App /></HashRouter>, document.getElementById('root'))
 
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.
